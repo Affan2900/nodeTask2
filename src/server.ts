@@ -7,7 +7,7 @@ import toDoRoutes from './routes/toDoRoutes';
 // Create an express app
 const app = express();
 
-//Middleware
+//Parse JSON bodies
 app.use(bodyParser.json());
 
 //Routes
